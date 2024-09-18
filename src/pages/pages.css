@@ -1,0 +1,60 @@
+.home-container{
+    display:flex ;
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(58, 58, 58) , rgb(220, 62, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 30px;
+}
+.comingsoon-container{
+    display:flex ;
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(58, 58, 58) , rgb(0, 205, 17));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 30px;
+}
+.notfound-container{
+    display:flex ;
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(58, 58, 58) , rgb(255, 0, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 30px;
+}
+
+.home-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 800%;
+    color: white;
+}
+.crew-container{
+    display:flex ;
+    
+    width: 100%;
+    background-image: linear-gradient(rgb(58, 58, 58) , rgb(255, 232, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.crew-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 800%;
+    color: white;
+}
+.crewcardholder{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
